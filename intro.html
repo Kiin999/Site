@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link rel="stylesheet" type="text/css" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale1.0">
+    <meta http-equiv="X-UA Compatible" content="ie-edge">
+
+    <title>Sistema</title>
+</head>
+
+<body>
+    <div class="succ">
+        <h2>Bem Vindo!</h2>
+        <h3>Você foi logado com Sucesso!</h3>
+        <h3 class='text'></h3>
+        <div class="cont">
+            <ul class='lista'></ul>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+<script src="front.js"></script>
+<script>
+    fetch('/teste.json').then((data) => {
+        data.json().then((data) => {
+            const lista = document.querySelector('.lista');
+            for (let key of Object.keys(data)) {
+                lista.innerHTML += '<li>' + data[key] + '</li>';
+            }
+        })
+    })
+</script>
+
+
+
+
+
+</html>

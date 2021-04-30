@@ -1,0 +1,104 @@
+body{
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+.mae{
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.form{
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.intermedio{
+    text-align: center;
+
+}
+
+.user{
+    width: 100px;
+    box-shadow: 1px 1px 5px #f0f0f0;
+    border-radius: 50px;
+}
+
+.titulo{
+    color: black;
+    font-size: 30px;
+}
+
+.painel >label{
+    width: 100%;
+    color: black;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.painel >input{
+    border-radius: 5px;
+    outline: 0;
+    width: 90%;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.painel{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.painel >button{
+    width: 50%;
+    background-image: linear-gradient(to right, #0395E2, #005CA8);
+    border-radius: 50px;
+    padding: 12px;
+    color: white;
+    border: 0px;
+    outline: 0;
+    font-weight: bold;
+}
+
+.btn button:hover{
+    background-image: linear-gradient(to right, #005ca8, #0395E2);
+}
+
+.erro {
+    color: red;
+    font-weight: bolder;
+}
+
+.succ{
+    text-align: center;
+    width: 600px;
+    box-shadow: 1px #f0f0f0;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.cont{
+    text-align: center;
+    width: 400px;
+    box-shadow: #f0f0f0;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.text {
+    color: red;
+    font-weight: bolder;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link rel="stylesheet" type="text/css" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale1.0">
+    <meta http-equiv="X-UA Compatible" content="ie-edge">
+    <title>Painel de Acesso</title>
+
+    
+
+</head>
+<body>
+    <div class="erro"></div>
+    <form class="form" action="/authenticate" method="POST">
+        <div class="mae">
+            <div class="intermedio">
+                <img class="user" src="./img/user.png" alt="">
+                <h2 class="titulo">Painel de Login</h2>
+            </div>
+
+            <div class="painel">
+                <label>Texto</label>
+                <input type="text" name="text" placeholder="Digite seu Texto">
+            </div>
+
+            <div class="painel">
+                <label>Token</label>
+                <input type="password" name="token" placeholder="Digite seu Token">
+            </div>
+            <div class="painel btn">
+                <button id="submit" type="submit">ENTRAR</button>
+
+            </div>
+        </div>
+
+    </form>
+
+</body>
+
+<script src="front.js"></script>
+
+</html>
